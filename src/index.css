@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 20px !important;
+    height: 20px !important;
+    aspect-ratio: 1 !important;
+    transform: scale(0.5) !important; /* Adjust the scaling to fit */
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    aspect-ratio: 1 !important;
+    transform: scale(0.5) !important;
+}
